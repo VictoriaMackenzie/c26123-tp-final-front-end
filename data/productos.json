@@ -1,0 +1,43 @@
+[
+    {
+    "id": "1",
+    "nombre": "Cerradura inteligente",
+    "precio": 150000,
+    "img": "img/cerraduraInteligenteUnsplash.jpg",
+    "descripcion": "Esta cerradura se bolquea y desbloquea con un número de seguridad."
+  },
+
+{
+"id": "2",
+    "nombre": "Sensor de temperatura",
+    "precio": 50000,
+    "img": "img/SensorTemperaturaUnsplash.jpg",
+    "descripcion": "Este sensor mide la temperatura de su hogar y le transmite a una app que maneja la calefacción"
+},
+
+
+{
+    "id": "3",
+    "nombre": "Reflector solar con sensor de movimiento",
+    "precio": 30000,
+    "img": "img/reflectorUnsplash.jpg",
+    "descripcion": "La luz se activará cuando el sensor registre a alguien cerca, se carga con energía solar."
+},
+
+{
+    "id": "4",
+    "nombre": "Router",
+    "precio": 50000,
+    "img": "img/wiFiUnsplash.jpg",
+    "descripcion": "Le permitirá conectarse a wi fi de una manera práctica y segura."
+},
+
+{
+    "id": "5",
+    "nombre": "Paneles solares",
+    "precio": 180000,
+    "img": "img/panelSolaUnsplash.jpg",
+    "descripcion": "Energía siempre disponible que también colaborará en reducir su factura de luz."
+}
+
+]

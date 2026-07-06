@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Puse este link para que funcione el ícono del carrito-->
+    <title>Lumina</title>
+    <link rel="icon" type="img" href="./img/LogoFB.png">
+</head>
+<body>
+    <header>
+        <div class="div-logo"><a href="./index.html"><img src="./img/Logo3.png" alt="Logo de la empresa" style="width: 100px;"></a>
+        </div>
+        <nav class="header-nav">
+
+            <ul>
+                <li>
+                    <a href="./index.html"> Inicio</a>
+                </li>
+
+                <li>
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./pages/carrito.html"class="carrito-icono">Mi carrito 🛒 
+                      <span id="contador-carrito">0</span>  
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-home text-secondary"> Con LUMINA viví tu hogar</h1>
+        <p class="parrafo">
+            Lumina es una empresa familiar dedicada a la domótica que transforma viviendas
+             en hogares inteligentes, automatizando funciones para aumentar el confort,
+              optimizar el consumo energético y simplificar la vida cotidiana. 
+              Nos enfocamos en entender las necesidades de cada familia para diseñar 
+              soluciones a su medida que integran tecnología, eficiencia energética
+               y bienestar en cada espacio.
+        </p>
+        <section>
+            <h2 class="titulo-productos">Algunos de nuestros productos:</h2>
+             <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!-- Acá se renderizarán las Tarjetas pero desde el js -->
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Sitio realizado por Victoria Mac Kenzie para Lumina</p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="./img/whatsapp.png" alt="Logo de whatsapp"/></li>
+                <li><img src="./img/instagram.png" alt="Logo de instagram"/></li>
+                <li>
+                    <a href="mailto:victoriapatriciamackenzie@gmail.com">
+                    <img src="./img/correo.png" alt="Logo de e-mail"/></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+     <script src="./js/index.js" type="module"></script>
+</body>
+</html>

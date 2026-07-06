@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+body { 
+    font-family: cursive;
+    font-size: 1.6rem;
+    background: rgb(249, 190, 122);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(145, 56, 1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(113, 39, 2);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.btn {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.6rem;
+    border-radius: 1.5rem;
+}
+
+.btn-eliminar-carrito {
+  background-color: #e0cd95;
+  border: 2px solid #d2761f;
+}
+
+.btn-vaciar-carrito {
+  background-color: #fc7566;
+  color: #1d1a20;
+}
+
+.btn-vaciar-carrito:hover {
+  background-color: #fa0404;
+}
+
+header, footer {
+    background: rgb(247, 230, 205) ;
+    color: rgb(162, 59, 4);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-logo {
+    margin-left: 2rem;
+    font-weight: 2rem;
+}
+
+.logo, .header-nav ul li a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
+    display: inline-block;
+    padding: 2rem;
+}
+
+.header-nav ul, footer .footer-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-list li {
+    padding: 1rem;
+}
+
+.footer-list img {
+    width: 5rem;
+    padding: 0.8rem;
+}
+
+.bg-primary {
+    background-color: rgba(145, 56, 1);
+}
+
+.bg-secondary {
+    background-color: rgba(247, 247, 177, 0.5);
+}
+
+.text-light {
+    color: rgb(197, 193, 153);
+}
+
+.text-dark {
+    color: rgb(105, 38, 2);
+}
+
+.text-secondary {
+    color: rgb(123, 52, 2);
+}
+
+.parrafo {
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.contenedor-tarjetas {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    background-color: rgb(179, 85, 3);
+    color: rgb(197, 193, 153);
+    width: 40rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.card p {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Estilos de la pg Contactos*/
+
+.titulo-contacto {
+    margin: 2rem 0;
+}
+
+.form-contacto {
+    background-color: rgb(247, 230, 205);
+    color: rgb(138, 84, 4);
+    width: 100%;
+    max-width: 50rem;
+    font-size: 2rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.grupo-input{
+    display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.form-contacto input, .form-contacto textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: brown;
+} 
+
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
+
+
+/* Uso media queries*/
+@media (max-width:600px) {
+
+body { 
+    font-family: monospace;
+    font-size: 1.5rem;
+    background: rgb(249, 190, 122);
+    display: block;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+    header, footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    img, section, div {
+        max-width: 100%;
+        box-sizing: border-box ;
+    }
+
+    header img.logo{
+        max-width: 150px;
+        height: auto;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+}

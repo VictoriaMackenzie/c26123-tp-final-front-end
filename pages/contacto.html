@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Puse este link para que funcione el ícono del carrito-->
+    <title>Lumina, contacto</title>
+    <link rel="icon" type="img" href="../img/LogoFB.png">
+</head>
+<body>
+   <header>
+        <div class="div-logo"><a href="../index.html"><img src="../img/Logo3.png" alt="Logo de la empresa" style="width: 100px;"></a>
+        </div>
+        <nav class="header-nav">
+
+            <ul>
+                <li>
+                    <a href="../index.html"> Inicio</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                <a href="./carrito.html" class="carrito-icono">
+                🛒 <span id="contador-carrito">0</span>
+                </a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+<h1 class="titulo-contacto text-secondary"> Contactanos: </h1>
+<form class="form-contacto"
+  action="https://formspree.io/f/xjglrnbd"
+  method="POST"
+>
+<div class="grupo-input">
+  <label>
+    Tu email:
+    <input type="email" name="email">
+  </label>
+  </div>
+
+  <div class="grupo-input">
+  <label>
+    Tu mensaje:
+    <textarea name="message"></textarea>
+  </label>
+  </div>
+  
+  <button class="btn bg-primary text-light" type="submit">Enviar</button>
+</form>
+</main>
+
+<footer>
+        <p>Sitio realizado por Victoria Mac Kenzie para Lumina</p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="../img/whatsapp.png" alt="Logo de whatsapp"/></li>
+                <li><img src="../img/instagram.png" alt="Logo de instagram"/></li>
+                <li>
+                    <a href="mailto:victoriapatriciamackenzie@gmail.com">
+                    <img src="../img/correo.png" alt="Logo de e-mail"/></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>   
+    <script type="module" src="../js/contacto.js"></script>
+</body>
+</html>
