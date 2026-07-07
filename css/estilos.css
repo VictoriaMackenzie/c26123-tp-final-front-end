@@ -222,6 +222,17 @@ body {
     padding: 10px;
 }
 
+main{
+    width: 95%;
+    padding-bottom: 1rem;
+}
+
+.parrafo{
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+    font-size: 1.8rem;
+}
+
     header, footer {
         display: flex;
         flex-direction: column;
